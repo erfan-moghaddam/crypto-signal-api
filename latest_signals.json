@@ -1,0 +1,148 @@
+{
+  "agent": "Crypto Signal Agent",
+  "version": "2.0.0-github",
+  "generated_at_utc": "2026-07-24T15:08:38.949636+00:00",
+  "execution_enabled": false,
+  "market": {
+    "regime": "BEARISH",
+    "score": 3,
+    "maximum_score": 25,
+    "date": "2026-07-23T00:00:00+00:00",
+    "close": 65098.97,
+    "rsi": 53.97,
+    "reasons": [
+      "BTC daily price is below EMA200",
+      "BTC daily EMA50 is below EMA200",
+      "BTC daily EMA200 is not rising",
+      "BTC daily RSI is in a healthy bullish range"
+    ]
+  },
+  "signals": [
+    {
+      "pair": "BTC/USDT",
+      "timeframe": "1h",
+      "signal": "AVOID",
+      "score": 36,
+      "score_breakdown": {
+        "market_regime": 3,
+        "trend": 8,
+        "momentum": 3,
+        "volume": 10,
+        "entry_quality": 12
+      },
+      "market_regime": "BEARISH",
+      "candle_date": "2026-07-24T14:00:00+00:00",
+      "data_age_hours": 1.14,
+      "is_stale": false,
+      "price": 64055.12,
+      "indicators": {
+        "ema_20": 64984.66010053,
+        "ema_50": 65272.10497405,
+        "ema_200": 65000.71316965,
+        "rsi": 27.44,
+        "adx": 23.24,
+        "atr": 336.50406781,
+        "macd_hist": -101.88182484,
+        "volume_ratio": 2.4
+      },
+      "reasons": [
+        "Price is below EMA200",
+        "EMA20 is below EMA50",
+        "EMA50 is above EMA200",
+        "Short-term trend is weakening",
+        "RSI is outside the preferred range",
+        "ADX shows a moderate trend",
+        "MACD momentum is negative",
+        "Volume is significantly above average",
+        "Price is close to EMA20",
+        "Latest candle closed bearish",
+        "Volatility is within the preferred range"
+      ],
+      "trade_levels": null
+    },
+    {
+      "pair": "ETH/USDT",
+      "timeframe": "1h",
+      "signal": "AVOID",
+      "score": 42,
+      "score_breakdown": {
+        "market_regime": 3,
+        "trend": 8,
+        "momentum": 6,
+        "volume": 10,
+        "entry_quality": 15
+      },
+      "market_regime": "BEARISH",
+      "candle_date": "2026-07-24T14:00:00+00:00",
+      "data_age_hours": 1.14,
+      "is_stale": false,
+      "price": 1862.9,
+      "indicators": {
+        "ema_20": 1881.55374567,
+        "ema_50": 1895.11328886,
+        "ema_200": 1884.47609184,
+        "rsi": 35.6,
+        "adx": 36.04,
+        "atr": 12.98057392,
+        "macd_hist": -0.65210481,
+        "volume_ratio": 1.89
+      },
+      "reasons": [
+        "Price is below EMA200",
+        "EMA20 is below EMA50",
+        "EMA50 is above EMA200",
+        "Short-term trend is weakening",
+        "RSI is outside the preferred range",
+        "ADX confirms a strong trend",
+        "MACD momentum is negative",
+        "Volume is significantly above average",
+        "Price is close to EMA20",
+        "Latest candle closed bullish",
+        "Volatility is within the preferred range"
+      ],
+      "trade_levels": null
+    },
+    {
+      "pair": "SOL/USDT",
+      "timeframe": "1h",
+      "signal": "AVOID",
+      "score": 28,
+      "score_breakdown": {
+        "market_regime": 3,
+        "trend": 0,
+        "momentum": 6,
+        "volume": 10,
+        "entry_quality": 9
+      },
+      "market_regime": "BEARISH",
+      "candle_date": "2026-07-24T14:00:00+00:00",
+      "data_age_hours": 1.14,
+      "is_stale": false,
+      "price": 74.03,
+      "indicators": {
+        "ema_20": 75.52106299,
+        "ema_50": 76.30933729,
+        "ema_200": 76.773227,
+        "rsi": 21.64,
+        "adx": 33.36,
+        "atr": 0.49925373,
+        "macd_hist": -0.11992669,
+        "volume_ratio": 2.32
+      },
+      "reasons": [
+        "Price is below EMA200",
+        "EMA20 is below EMA50",
+        "EMA50 is below EMA200",
+        "Short-term trend is weakening",
+        "RSI is outside the preferred range",
+        "ADX confirms a strong trend",
+        "MACD momentum is negative",
+        "Volume is significantly above average",
+        "Price is moderately extended from EMA20",
+        "Latest candle closed bearish",
+        "Volatility is within the preferred range"
+      ],
+      "trade_levels": null
+    }
+  ]
+}
