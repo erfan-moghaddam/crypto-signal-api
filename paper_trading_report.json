@@ -1,0 +1,62 @@
+{
+  "engine": "Crypto Signal Agent V4 Paper Trader",
+  "generated_at_utc": "2026-07-25T22:04:23.163277+00:00",
+  "mode": "PAPER_TRADING",
+  "live_execution_enabled": false,
+  "paper_trading_enabled": true,
+  "strategy": {
+    "pairs": [
+      "BTCUSDT",
+      "ETHUSDT"
+    ],
+    "maximum_entry_rsi": 72.0,
+    "maximum_atr_extension": 3.0,
+    "entry_execution": "next_closed_1h_candle_open",
+    "stateful": true
+  },
+  "account": {
+    "initial_capital_usdt": 1000.0,
+    "cash_usdt": 1000.0,
+    "gross_equity_usdt": 1000.0,
+    "estimated_liquidation_equity_usdt": 1000.0,
+    "estimated_total_return_percent": 0.0
+  },
+  "performance": {
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "win_rate_percent": 0.0,
+    "gross_profit_usdt": 0.0,
+    "gross_loss_usdt": 0.0,
+    "net_profit_usdt": 0.0,
+    "profit_factor": null,
+    "expectancy_usdt": 0.0,
+    "expectancy_r": 0.0,
+    "average_duration_hours": 0.0,
+    "maximum_drawdown_usdt": 0.0,
+    "maximum_drawdown_percent": 0.0
+  },
+  "open_positions": [],
+  "pending_entries": [],
+  "pending_exits": {},
+  "counters": {
+    "signals": {
+      "BUY": 0,
+      "WAIT": 0,
+      "AVOID": 30
+    },
+    "skipped_entries": {
+      "outside_entry_range": 0,
+      "insufficient_cash": 0,
+      "invalid_stop": 0,
+      "minimum_order": 0,
+      "portfolio_limit": 0
+    }
+  },
+  "last_processed_close_time_utc": "2026-07-25T21:59:59.999000+00:00",
+  "files": {
+    "state": "logs/paper_trading/positions.json",
+    "trades": "logs/paper_trading/trades.jsonl",
+    "report": "output/paper_trading_report.json"
+  }
+}
