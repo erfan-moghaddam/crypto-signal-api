@@ -2,7 +2,7 @@
   "agent": "Crypto Signal Agent",
   "version": "4.0.0-github",
   "strategy": "Multi-Timeframe Trend Following + Donchian Breakout + ATR Risk Management",
-  "generated_at_utc": "2026-07-27T17:57:55.774456+00:00",
+  "generated_at_utc": "2026-07-27T20:00:09.559221+00:00",
   "execution_enabled": false,
   "market": {
     "regime": "BEARISH",
@@ -11,7 +11,7 @@
     "risk_multiplier": 0.0,
     "date": "2026-07-26T00:00:00+00:00",
     "close_date": "2026-07-26T23:59:59.999000+00:00",
-    "data_age_hours": 17.97,
+    "data_age_hours": 19.97,
     "close": 65399.99,
     "ema_50": 65084.33668702,
     "ema_200": 73541.37994175,
@@ -31,20 +31,10 @@
     "trailing_stop_atr_multiplier": 2.5
   },
   "usdt_irt": {
-    "available": true,
+    "available": false,
     "symbol": "USDT/IRT",
     "source": "Nobitex",
-    "price_irr": 1886010.0,
-    "price_toman": 188601.0,
-    "last_trade_irr": 1886010.0,
-    "best_bid_irr": 1886020.0,
-    "best_ask_irr": 1887500.0,
-    "midpoint_irr": 1886760.0,
-    "spread_irr": 1480.0,
-    "updated_at_utc": "2026-07-27T17:57:54.755000+00:00",
-    "data_age_minutes": 0.02,
-    "is_stale": false,
-    "endpoint": "https://apiv2.nobitex.ir/v3/orderbook/USDTIRT"
+    "error": "Request failed after 3 attempts: <urlopen error [Errno -2] Name or service not known>"
   },
   "signals": [
     {
@@ -62,14 +52,14 @@
         "entry_quality": 3
       },
       "market_regime": "BEARISH",
-      "candle_date": "2026-07-27T16:00:00+00:00",
-      "candle_close_date": "2026-07-27T16:59:59.999000+00:00",
+      "candle_date": "2026-07-27T18:00:00+00:00",
+      "candle_close_date": "2026-07-27T18:59:59.999000+00:00",
       "confirmation_candle_date": "2026-07-27T12:00:00+00:00",
       "confirmation_candle_close_date": "2026-07-27T15:59:59.999000+00:00",
-      "data_age_hours": 0.97,
-      "confirmation_data_age_hours": 1.97,
+      "data_age_hours": 0.98,
+      "confirmation_data_age_hours": 3.98,
       "is_stale": false,
-      "price": 64898.52,
+      "price": 64878.0,
       "breakout_votes": 0,
       "maximum_breakout_votes": 3,
       "donchian": {
@@ -117,7 +107,7 @@
         "minus_di": 23.49,
         "candle_date": "2026-07-27T12:00:00+00:00",
         "candle_close_date": "2026-07-27T15:59:59.999000+00:00",
-        "data_age_hours": 1.97,
+        "data_age_hours": 3.98,
         "reasons": [
           "close_above_ema200=passed",
           "ema20_above_ema50=passed",
@@ -128,18 +118,18 @@
         ]
       },
       "indicators": {
-        "ema_20": 65009.08326017,
-        "ema_50": 64863.90963584,
-        "ema_200": 64805.58550279,
-        "rsi": 48.1,
-        "adx": 26.76,
-        "plus_di": 26.58,
-        "minus_di": 22.18,
-        "atr": 333.58636343,
+        "ema_20": 64997.52343973,
+        "ema_50": 64870.33618441,
+        "ema_200": 64808.41642227,
+        "rsi": 47.63,
+        "adx": 24.83,
+        "plus_di": 25.65,
+        "minus_di": 20.24,
+        "atr": 328.85910929,
         "atr_percent": 0.51,
-        "atr_extension": -0.33,
-        "macd_hist": -87.52690854,
-        "volume_ratio": 0.7
+        "atr_extension": -0.36,
+        "macd_hist": -66.2985219,
+        "volume_ratio": 0.51
       },
       "reasons": [
         "4h close_above_ema200 passed",
@@ -173,14 +163,14 @@
         "entry_quality": 3
       },
       "market_regime": "BEARISH",
-      "candle_date": "2026-07-27T16:00:00+00:00",
-      "candle_close_date": "2026-07-27T16:59:59.999000+00:00",
+      "candle_date": "2026-07-27T18:00:00+00:00",
+      "candle_close_date": "2026-07-27T18:59:59.999000+00:00",
       "confirmation_candle_date": "2026-07-27T12:00:00+00:00",
       "confirmation_candle_close_date": "2026-07-27T15:59:59.999000+00:00",
-      "data_age_hours": 0.97,
-      "confirmation_data_age_hours": 1.97,
+      "data_age_hours": 0.98,
+      "confirmation_data_age_hours": 3.98,
       "is_stale": false,
-      "price": 1940.57,
+      "price": 1939.2,
       "breakout_votes": 0,
       "maximum_breakout_votes": 3,
       "donchian": {
@@ -228,7 +218,7 @@
         "minus_di": 19.08,
         "candle_date": "2026-07-27T12:00:00+00:00",
         "candle_close_date": "2026-07-27T15:59:59.999000+00:00",
-        "data_age_hours": 1.97,
+        "data_age_hours": 3.98,
         "reasons": [
           "close_above_ema200=passed",
           "ema20_above_ema50=passed",
@@ -239,18 +229,18 @@
         ]
       },
       "indicators": {
-        "ema_20": 1943.83441953,
-        "ema_50": 1922.51333511,
-        "ema_200": 1894.38880238,
-        "rsi": 51.34,
-        "adx": 43.83,
-        "plus_di": 27.01,
-        "minus_di": 23.6,
-        "atr": 15.75054038,
-        "atr_percent": 0.81,
-        "atr_extension": -0.21,
-        "macd_hist": -5.51869081,
-        "volume_ratio": 0.75
+        "ema_20": 1943.38232528,
+        "ema_50": 1923.96635817,
+        "ema_200": 1895.32055997,
+        "rsi": 50.34,
+        "adx": 38.28,
+        "plus_di": 23.8,
+        "minus_di": 23.53,
+        "atr": 15.41204758,
+        "atr_percent": 0.79,
+        "atr_extension": -0.27,
+        "macd_hist": -5.12406862,
+        "volume_ratio": 0.48
       },
       "reasons": [
         "4h close_above_ema200 passed",
@@ -284,14 +274,14 @@
         "entry_quality": 3
       },
       "market_regime": "BEARISH",
-      "candle_date": "2026-07-27T16:00:00+00:00",
-      "candle_close_date": "2026-07-27T16:59:59.999000+00:00",
+      "candle_date": "2026-07-27T18:00:00+00:00",
+      "candle_close_date": "2026-07-27T18:59:59.999000+00:00",
       "confirmation_candle_date": "2026-07-27T12:00:00+00:00",
       "confirmation_candle_close_date": "2026-07-27T15:59:59.999000+00:00",
-      "data_age_hours": 0.97,
-      "confirmation_data_age_hours": 1.97,
+      "data_age_hours": 0.98,
+      "confirmation_data_age_hours": 3.98,
       "is_stale": false,
-      "price": 75.95,
+      "price": 75.62,
       "breakout_votes": 0,
       "maximum_breakout_votes": 3,
       "donchian": {
@@ -304,7 +294,7 @@
           "breakout": false
         },
         "100": {
-          "upper": 77.74,
+          "upper": 77.5,
           "breakout": false
         }
       },
@@ -339,7 +329,7 @@
         "minus_di": 20.35,
         "candle_date": "2026-07-27T12:00:00+00:00",
         "candle_close_date": "2026-07-27T15:59:59.999000+00:00",
-        "data_age_hours": 1.97,
+        "data_age_hours": 3.98,
         "reasons": [
           "close_above_ema200=failed",
           "ema20_above_ema50=failed",
@@ -350,18 +340,18 @@
         ]
       },
       "indicators": {
-        "ema_20": 76.11465196,
-        "ema_50": 75.72258864,
-        "ema_200": 75.94685643,
-        "rsi": 49.23,
-        "adx": 34.26,
-        "plus_di": 25.67,
-        "minus_di": 21.78,
-        "atr": 0.57060537,
-        "atr_percent": 0.75,
-        "atr_extension": -0.29,
-        "macd_hist": -0.15476254,
-        "volume_ratio": 0.87
+        "ema_20": 76.04990784,
+        "ema_50": 75.72562681,
+        "ema_200": 75.94324104,
+        "rsi": 45.03,
+        "adx": 30.57,
+        "plus_di": 25.1,
+        "minus_di": 25.6,
+        "atr": 0.57195055,
+        "atr_percent": 0.76,
+        "atr_extension": -0.75,
+        "macd_hist": -0.15691853,
+        "volume_ratio": 0.69
       },
       "reasons": [
         "4h close_above_ema200 failed",
