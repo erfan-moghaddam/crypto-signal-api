@@ -1,6 +1,6 @@
 {
   "engine": "Crypto Signal Agent V4 Paper Trader",
-  "generated_at_utc": "2026-08-12T19:17:28.522589+00:00",
+  "generated_at_utc": "2026-08-12T21:00:21.056636+00:00",
   "mode": "PAPER_TRADING",
   "live_execution_enabled": false,
   "paper_trading_enabled": true,
@@ -43,7 +43,7 @@
     "signals": {
       "BUY": 0,
       "WAIT": 0,
-      "AVOID": 888
+      "AVOID": 892
     },
     "skipped_entries": {
       "outside_entry_range": 0,
@@ -53,7 +53,7 @@
       "portfolio_limit": 0
     }
   },
-  "last_processed_close_time_utc": "2026-08-12T18:59:59.999000+00:00",
+  "last_processed_close_time_utc": "2026-08-12T20:59:59.999000+00:00",
   "files": {
     "state": "logs/paper_trading/positions.json",
     "trades": "logs/paper_trading/trades.jsonl",
