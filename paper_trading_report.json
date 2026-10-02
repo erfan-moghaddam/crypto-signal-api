@@ -1,6 +1,6 @@
 {
   "engine": "Crypto Signal Agent V4 Paper Trader",
-  "generated_at_utc": "2026-10-02T08:26:48.336734+00:00",
+  "generated_at_utc": "2026-10-02T15:45:22.098786+00:00",
   "mode": "PAPER_TRADING",
   "live_execution_enabled": false,
   "paper_trading_enabled": true,
@@ -16,59 +16,34 @@
   },
   "account": {
     "initial_capital_usdt": 1000.0,
-    "cash_usdt": 609.92658651,
-    "gross_equity_usdt": 998.75538809,
-    "estimated_liquidation_equity_usdt": 998.28887129,
-    "estimated_total_return_percent": -0.1711
+    "cash_usdt": 997.48445254,
+    "gross_equity_usdt": 997.48445254,
+    "estimated_liquidation_equity_usdt": 997.48445254,
+    "estimated_total_return_percent": -0.2516
   },
   "performance": {
-    "trades": 0,
+    "trades": 1,
     "wins": 0,
-    "losses": 0,
+    "losses": 1,
     "win_rate_percent": 0.0,
-    "gross_profit_usdt": 0.0,
-    "gross_loss_usdt": 0.0,
-    "net_profit_usdt": 0.0,
-    "profit_factor": null,
-    "expectancy_usdt": 0.0,
-    "expectancy_r": 0.0,
-    "average_duration_hours": 0.0,
-    "maximum_drawdown_usdt": 3.6083042,
-    "maximum_drawdown_percent": 0.3608
+    "gross_profit_usdt": 0,
+    "gross_loss_usdt": 2.5155,
+    "net_profit_usdt": -2.5155,
+    "profit_factor": 0.0,
+    "expectancy_usdt": -2.5155,
+    "expectancy_r": -0.5031,
+    "average_duration_hours": 9,
+    "maximum_drawdown_usdt": 3.81218886,
+    "maximum_drawdown_percent": 0.3807
   },
-  "open_positions": [
-    {
-      "symbol": "ETHUSDT",
-      "pair": "ETH/USDT",
-      "signal_time_ms": 1790917199999,
-      "entry_time_ms": 1790917200000,
-      "entry_price": 2743.308552,
-      "quantity": 0.14204881528012972,
-      "entry_notional": 389.6837297594481,
-      "entry_fee": 0.38968372975944815,
-      "initial_stop": 2708.1093847972347,
-      "active_stop": 2708.1093847972347,
-      "highest_price": 2743.308552,
-      "initial_risk_per_unit": 35.19916720276524,
-      "account_risk_percent": 0.5,
-      "score": 97,
-      "breakout_votes": 2,
-      "market_score": 25,
-      "bars_held": 3,
-      "mark_price": 2737.29,
-      "estimated_exit_price": 2736.742542,
-      "estimated_net_pnl_usdt": -1.71112871,
-      "estimated_r_multiple": -0.3422,
-      "distance_to_active_stop_percent": 1.066
-    }
-  ],
+  "open_positions": [],
   "pending_entries": [],
   "pending_exits": {},
   "counters": {
     "signals": {
       "BUY": 1,
       "WAIT": 60,
-      "AVOID": 3250
+      "AVOID": 3258
     },
     "skipped_entries": {
       "outside_entry_range": 0,
@@ -78,7 +53,7 @@
       "portfolio_limit": 0
     }
   },
-  "last_processed_close_time_utc": "2026-10-02T07:59:59.999000+00:00",
+  "last_processed_close_time_utc": "2026-10-02T14:59:59.999000+00:00",
   "files": {
     "state": "logs/paper_trading/positions.json",
     "trades": "logs/paper_trading/trades.jsonl",
