@@ -1,6 +1,6 @@
 {
   "engine": "Crypto Signal Agent V4 Paper Trader",
-  "generated_at_utc": "2026-10-21T13:43:55.435304+00:00",
+  "generated_at_utc": "2026-10-21T18:34:54.913522+00:00",
   "mode": "PAPER_TRADING",
   "live_execution_enabled": false,
   "paper_trading_enabled": true,
@@ -16,10 +16,10 @@
   },
   "account": {
     "initial_capital_usdt": 1000.0,
-    "cash_usdt": 997.48445254,
-    "gross_equity_usdt": 997.48445254,
-    "estimated_liquidation_equity_usdt": 997.48445254,
-    "estimated_total_return_percent": -0.2516
+    "cash_usdt": 498.24348404,
+    "gross_equity_usdt": 1001.96942751,
+    "estimated_liquidation_equity_usdt": 1001.36505713,
+    "estimated_total_return_percent": 0.1365
   },
   "performance": {
     "trades": 1,
@@ -36,14 +36,39 @@
     "maximum_drawdown_usdt": 3.81218886,
     "maximum_drawdown_percent": 0.3807
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "symbol": "BTCUSDT",
+      "pair": "BTC/USDT",
+      "signal_time_ms": 1792591199999,
+      "entry_time_ms": 1792591200000,
+      "entry_price": 83842.7652,
+      "quantity": 0.005948542191794014,
+      "entry_notional": 498.7422262688789,
+      "entry_fee": 0.49874222626887893,
+      "initial_stop": 83098.7165149288,
+      "active_stop": 83853.01740048683,
+      "highest_price": 84898.0,
+      "initial_risk_per_unit": 744.0486850711895,
+      "account_risk_percent": 0.5,
+      "score": 100,
+      "breakout_votes": 3,
+      "market_score": 25,
+      "bars_held": 4,
+      "mark_price": 84680.57,
+      "estimated_exit_price": 84663.633886,
+      "estimated_net_pnl_usdt": 3.88060459,
+      "estimated_r_multiple": 0.8768,
+      "distance_to_active_stop_percent": 0.9773
+    }
+  ],
   "pending_entries": [],
   "pending_exits": {},
   "counters": {
     "signals": {
-      "BUY": 1,
-      "WAIT": 74,
-      "AVOID": 4152
+      "BUY": 2,
+      "WAIT": 75,
+      "AVOID": 4156
     },
     "skipped_entries": {
       "outside_entry_range": 0,
@@ -53,7 +78,7 @@
       "portfolio_limit": 0
     }
   },
-  "last_processed_close_time_utc": "2026-10-21T12:59:59.999000+00:00",
+  "last_processed_close_time_utc": "2026-10-21T17:59:59.999000+00:00",
   "files": {
     "state": "logs/paper_trading/positions.json",
     "trades": "logs/paper_trading/trades.jsonl",
