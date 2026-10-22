@@ -1,6 +1,6 @@
 {
   "engine": "Crypto Signal Agent V4 Paper Trader",
-  "generated_at_utc": "2026-10-21T22:18:06.166111+00:00",
+  "generated_at_utc": "2026-10-22T01:28:12.131580+00:00",
   "mode": "PAPER_TRADING",
   "live_execution_enabled": false,
   "paper_trading_enabled": true,
@@ -17,9 +17,9 @@
   "account": {
     "initial_capital_usdt": 1000.0,
     "cash_usdt": 498.24348404,
-    "gross_equity_usdt": 1002.93987269,
-    "estimated_liquidation_equity_usdt": 1002.33433796,
-    "estimated_total_return_percent": 0.2334
+    "gross_equity_usdt": 999.11775587,
+    "estimated_liquidation_equity_usdt": 998.51680692,
+    "estimated_total_return_percent": -0.1483
   },
   "performance": {
     "trades": 1,
@@ -33,8 +33,8 @@
     "expectancy_usdt": -2.5155,
     "expectancy_r": -0.5031,
     "average_duration_hours": 9,
-    "maximum_drawdown_usdt": 3.81218886,
-    "maximum_drawdown_percent": 0.3807
+    "maximum_drawdown_usdt": 4.46313172,
+    "maximum_drawdown_percent": 0.445
   },
   "open_positions": [
     {
@@ -47,19 +47,19 @@
       "entry_notional": 498.7422262688789,
       "entry_fee": 0.49874222626887893,
       "initial_stop": 83098.7165149288,
-      "active_stop": 83885.22615968098,
+      "active_stop": 83905.99813149385,
       "highest_price": 84898.0,
       "initial_risk_per_unit": 744.0486850711895,
       "account_risk_percent": 0.5,
       "score": 100,
       "breakout_votes": 3,
       "market_score": 25,
-      "bars_held": 8,
-      "mark_price": 84843.71,
-      "estimated_exit_price": 84826.741258,
-      "estimated_net_pnl_usdt": 4.84988542,
-      "estimated_r_multiple": 1.0958,
-      "distance_to_active_stop_percent": 1.1297
+      "bars_held": 11,
+      "mark_price": 84201.18,
+      "estimated_exit_price": 84184.339764,
+      "estimated_net_pnl_usdt": 1.03235438,
+      "estimated_r_multiple": 0.2332,
+      "distance_to_active_stop_percent": 0.3506
     }
   ],
   "pending_entries": [],
@@ -68,7 +68,7 @@
     "signals": {
       "BUY": 2,
       "WAIT": 75,
-      "AVOID": 4160
+      "AVOID": 4163
     },
     "skipped_entries": {
       "outside_entry_range": 0,
@@ -78,7 +78,7 @@
       "portfolio_limit": 0
     }
   },
-  "last_processed_close_time_utc": "2026-10-21T21:59:59.999000+00:00",
+  "last_processed_close_time_utc": "2026-10-22T00:59:59.999000+00:00",
   "files": {
     "state": "logs/paper_trading/positions.json",
     "trades": "logs/paper_trading/trades.jsonl",
