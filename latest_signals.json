@@ -2,7 +2,7 @@
   "agent": "Crypto Signal Agent",
   "version": "4.0.0-github",
   "strategy": "Multi-Timeframe Trend Following + Donchian Breakout + ATR Risk Management",
-  "generated_at_utc": "2026-11-07T20:16:32.901833+00:00",
+  "generated_at_utc": "2026-11-07T23:41:55.261454+00:00",
   "execution_enabled": false,
   "market": {
     "regime": "NEUTRAL",
@@ -11,7 +11,7 @@
     "risk_multiplier": 0.5,
     "date": "2026-11-06T00:00:00+00:00",
     "close_date": "2026-11-06T23:59:59.999000+00:00",
-    "data_age_hours": 20.27,
+    "data_age_hours": 23.7,
     "close": 75844.0,
     "ema_50": 79826.27336589,
     "ema_200": 76535.52453358,
@@ -43,23 +43,23 @@
       "confirmation_timeframe": "4h",
       "signal": "AVOID",
       "signal_strength": "NONE",
-      "score": 23,
+      "score": 33,
       "score_breakdown": {
         "market_regime": 12,
         "trend": 5,
         "momentum": 6,
-        "volume": 0,
+        "volume": 10,
         "entry_quality": 0
       },
       "market_regime": "NEUTRAL",
-      "candle_date": "2026-11-07T19:00:00+00:00",
-      "candle_close_date": "2026-11-07T19:59:59.999000+00:00",
+      "candle_date": "2026-11-07T22:00:00+00:00",
+      "candle_close_date": "2026-11-07T22:59:59.999000+00:00",
       "confirmation_candle_date": "2026-11-07T16:00:00+00:00",
       "confirmation_candle_close_date": "2026-11-07T19:59:59.999000+00:00",
-      "data_age_hours": 0.27,
-      "confirmation_data_age_hours": 0.27,
+      "data_age_hours": 0.7,
+      "confirmation_data_age_hours": 3.7,
       "is_stale": false,
-      "price": 75805.19,
+      "price": 75775.91,
       "breakout_votes": 0,
       "maximum_breakout_votes": 3,
       "donchian": {
@@ -68,7 +68,7 @@
           "breakout": false
         },
         "55": {
-          "upper": 80390.02,
+          "upper": 78288.28,
           "breakout": false
         },
         "100": {
@@ -78,7 +78,7 @@
       },
       "entry_filters": {
         "close_above_ema20": false,
-        "volume_confirmed": false,
+        "volume_confirmed": true,
         "rsi_in_entry_range": false,
         "macd_positive": true,
         "atr_in_range": false,
@@ -107,7 +107,7 @@
         "minus_di": 31.16,
         "candle_date": "2026-11-07T16:00:00+00:00",
         "candle_close_date": "2026-11-07T19:59:59.999000+00:00",
-        "data_age_hours": 0.27,
+        "data_age_hours": 3.7,
         "reasons": [
           "close_above_ema200=failed",
           "ema20_above_ema50=failed",
@@ -118,18 +118,18 @@
         ]
       },
       "indicators": {
-        "ema_20": 75922.03777139,
-        "ema_50": 76328.38180386,
-        "ema_200": 77661.49394641,
-        "rsi": 41.83,
-        "adx": 29.39,
-        "plus_di": 14.62,
-        "minus_di": 29.1,
-        "atr": 209.51571799,
-        "atr_percent": 0.28,
-        "atr_extension": -0.56,
-        "macd_hist": 4.91724537,
-        "volume_ratio": 0.49
+        "ema_20": 75875.67820904,
+        "ema_50": 76262.03812457,
+        "ema_200": 77604.7337739,
+        "rsi": 42.23,
+        "adx": 31.29,
+        "plus_di": 14.67,
+        "minus_di": 30.26,
+        "atr": 198.4833901,
+        "atr_percent": 0.26,
+        "atr_extension": -0.5,
+        "macd_hist": 1.85264324,
+        "volume_ratio": 1.96
       },
       "reasons": [
         "4h close_above_ema200 failed",
@@ -141,7 +141,7 @@
         "1h RSI is outside the preferred entry range",
         "1h MACD momentum is positive",
         "1h price is below EMA20",
-        "1h volume confirmation is insufficient",
+        "1h bullish candle has strong volume confirmation",
         "Donchian breakout votes: 0/3",
         "1h volatility is outside the preferred range",
         "1h price is overextended from EMA20"
@@ -163,14 +163,14 @@
         "entry_quality": 0
       },
       "market_regime": "NEUTRAL",
-      "candle_date": "2026-11-07T19:00:00+00:00",
-      "candle_close_date": "2026-11-07T19:59:59.999000+00:00",
+      "candle_date": "2026-11-07T22:00:00+00:00",
+      "candle_close_date": "2026-11-07T22:59:59.999000+00:00",
       "confirmation_candle_date": "2026-11-07T16:00:00+00:00",
       "confirmation_candle_close_date": "2026-11-07T19:59:59.999000+00:00",
-      "data_age_hours": 0.27,
-      "confirmation_data_age_hours": 0.27,
+      "data_age_hours": 0.7,
+      "confirmation_data_age_hours": 3.7,
       "is_stale": false,
-      "price": 2235.57,
+      "price": 2235.05,
       "breakout_votes": 0,
       "maximum_breakout_votes": 3,
       "donchian": {
@@ -179,7 +179,7 @@
           "breakout": false
         },
         "55": {
-          "upper": 2421.0,
+          "upper": 2344.18,
           "breakout": false
         },
         "100": {
@@ -218,7 +218,7 @@
         "minus_di": 29.98,
         "candle_date": "2026-11-07T16:00:00+00:00",
         "candle_close_date": "2026-11-07T19:59:59.999000+00:00",
-        "data_age_hours": 0.27,
+        "data_age_hours": 3.7,
         "reasons": [
           "close_above_ema200=failed",
           "ema20_above_ema50=failed",
@@ -229,18 +229,18 @@
         ]
       },
       "indicators": {
-        "ema_20": 2241.403738,
-        "ema_50": 2255.59320103,
-        "ema_200": 2287.71103701,
-        "rsi": 41.77,
-        "adx": 25.84,
-        "plus_di": 13.41,
-        "minus_di": 26.74,
-        "atr": 8.74093231,
+        "ema_20": 2239.10095227,
+        "ema_50": 2252.97091607,
+        "ema_200": 2286.07475789,
+        "rsi": 43.61,
+        "adx": 29.01,
+        "plus_di": 13.04,
+        "minus_di": 28.82,
+        "atr": 8.61073189,
         "atr_percent": 0.39,
-        "atr_extension": -0.67,
-        "macd_hist": -0.25329506,
-        "volume_ratio": 0.58
+        "atr_extension": -0.47,
+        "macd_hist": -0.43923863,
+        "volume_ratio": 0.84
       },
       "reasons": [
         "4h close_above_ema200 failed",
@@ -274,14 +274,14 @@
         "entry_quality": 3
       },
       "market_regime": "NEUTRAL",
-      "candle_date": "2026-11-07T19:00:00+00:00",
-      "candle_close_date": "2026-11-07T19:59:59.999000+00:00",
+      "candle_date": "2026-11-07T22:00:00+00:00",
+      "candle_close_date": "2026-11-07T22:59:59.999000+00:00",
       "confirmation_candle_date": "2026-11-07T16:00:00+00:00",
       "confirmation_candle_close_date": "2026-11-07T19:59:59.999000+00:00",
-      "data_age_hours": 0.27,
-      "confirmation_data_age_hours": 0.27,
+      "data_age_hours": 0.7,
+      "confirmation_data_age_hours": 3.7,
       "is_stale": false,
-      "price": 89.64,
+      "price": 89.29,
       "breakout_votes": 0,
       "maximum_breakout_votes": 3,
       "donchian": {
@@ -290,7 +290,7 @@
           "breakout": false
         },
         "55": {
-          "upper": 96.52,
+          "upper": 93.04,
           "breakout": false
         },
         "100": {
@@ -329,7 +329,7 @@
         "minus_di": 24.91,
         "candle_date": "2026-11-07T16:00:00+00:00",
         "candle_close_date": "2026-11-07T19:59:59.999000+00:00",
-        "data_age_hours": 0.27,
+        "data_age_hours": 3.7,
         "reasons": [
           "close_above_ema200=failed",
           "ema20_above_ema50=failed",
@@ -340,18 +340,18 @@
         ]
       },
       "indicators": {
-        "ema_20": 89.95319477,
-        "ema_50": 90.59040294,
-        "ema_200": 93.56169582,
-        "rsi": 41.22,
-        "adx": 19.92,
-        "plus_di": 14.35,
-        "minus_di": 24.17,
-        "atr": 0.46271658,
-        "atr_percent": 0.52,
-        "atr_extension": -0.68,
-        "macd_hist": -0.00620761,
-        "volume_ratio": 0.51
+        "ema_20": 89.75980595,
+        "ema_50": 90.43350232,
+        "ema_200": 93.4328098,
+        "rsi": 38.44,
+        "adx": 24.37,
+        "plus_di": 12.81,
+        "minus_di": 29.16,
+        "atr": 0.48206208,
+        "atr_percent": 0.54,
+        "atr_extension": -0.97,
+        "macd_hist": -0.04388911,
+        "volume_ratio": 0.74
       },
       "reasons": [
         "4h close_above_ema200 failed",
