@@ -2,7 +2,7 @@
   "agent": "Crypto Signal Agent",
   "version": "4.0.0-github",
   "strategy": "Multi-Timeframe Trend Following + Donchian Breakout + ATR Risk Management",
-  "generated_at_utc": "2026-11-18T14:09:59.087290+00:00",
+  "generated_at_utc": "2026-11-18T22:03:18.979849+00:00",
   "execution_enabled": false,
   "market": {
     "regime": "BEARISH",
@@ -11,7 +11,7 @@
     "risk_multiplier": 0.0,
     "date": "2026-11-17T00:00:00+00:00",
     "close_date": "2026-11-17T23:59:59.999000+00:00",
-    "data_age_hours": 14.17,
+    "data_age_hours": 22.05,
     "close": 64947.35,
     "ema_50": 76232.12709873,
     "ema_200": 75869.02495617,
@@ -31,20 +31,10 @@
     "trailing_stop_atr_multiplier": 2.5
   },
   "usdt_irt": {
-    "available": true,
+    "available": false,
     "symbol": "USDT/IRT",
     "source": "Nobitex",
-    "price_irr": 2701800.0,
-    "price_toman": 270180.0,
-    "last_trade_irr": 2701800.0,
-    "best_bid_irr": 2700000.0,
-    "best_ask_irr": 2701800.0,
-    "midpoint_irr": 2700900.0,
-    "spread_irr": 1800.0,
-    "updated_at_utc": "2026-11-18T14:09:57.872000+00:00",
-    "data_age_minutes": 0.02,
-    "is_stale": false,
-    "endpoint": "https://apiv2.nobitex.ir/v3/orderbook/USDTIRT"
+    "error": "Request failed after 3 attempts: <urlopen error [Errno -2] Name or service not known>"
   },
   "signals": [
     {
@@ -62,19 +52,19 @@
         "entry_quality": 3
       },
       "market_regime": "BEARISH",
-      "candle_date": "2026-11-18T13:00:00+00:00",
-      "candle_close_date": "2026-11-18T13:59:59.999000+00:00",
-      "confirmation_candle_date": "2026-11-18T08:00:00+00:00",
-      "confirmation_candle_close_date": "2026-11-18T11:59:59.999000+00:00",
-      "data_age_hours": 0.17,
-      "confirmation_data_age_hours": 2.17,
+      "candle_date": "2026-11-18T21:00:00+00:00",
+      "candle_close_date": "2026-11-18T21:59:59.999000+00:00",
+      "confirmation_candle_date": "2026-11-18T16:00:00+00:00",
+      "confirmation_candle_close_date": "2026-11-18T19:59:59.999000+00:00",
+      "data_age_hours": 0.05,
+      "confirmation_data_age_hours": 2.05,
       "is_stale": false,
-      "price": 63944.13,
+      "price": 62352.3,
       "breakout_votes": 0,
       "maximum_breakout_votes": 3,
       "donchian": {
         "20": {
-          "upper": 65268.0,
+          "upper": 64952.92,
           "breakout": false
         },
         "55": {
@@ -82,7 +72,7 @@
           "breakout": false
         },
         "100": {
-          "upper": 67523.05,
+          "upper": 66189.88,
           "breakout": false
         }
       },
@@ -107,17 +97,17 @@
           "adx_confirmed": true,
           "directional_bullish": false
         },
-        "price": 64231.52,
-        "ema_20": 65173.48421938,
-        "ema_50": 67874.19179101,
-        "ema_200": 74780.15065035,
-        "macd_hist": 254.39081374,
-        "adx": 49.57,
-        "plus_di": 10.1,
-        "minus_di": 20.79,
-        "candle_date": "2026-11-18T08:00:00+00:00",
-        "candle_close_date": "2026-11-18T11:59:59.999000+00:00",
-        "data_age_hours": 2.17,
+        "price": 62747.22,
+        "ema_20": 64765.68522267,
+        "ema_50": 67494.10183399,
+        "ema_200": 74545.57796304,
+        "macd_hist": 85.18358275,
+        "adx": 49.69,
+        "plus_di": 8.55,
+        "minus_di": 28.19,
+        "candle_date": "2026-11-18T16:00:00+00:00",
+        "candle_close_date": "2026-11-18T19:59:59.999000+00:00",
+        "data_age_hours": 2.05,
         "reasons": [
           "close_above_ema200=failed",
           "ema20_above_ema50=failed",
@@ -128,18 +118,18 @@
         ]
       },
       "indicators": {
-        "ema_20": 64418.01523889,
-        "ema_50": 64634.08065001,
-        "ema_200": 67825.87417508,
-        "rsi": 40.19,
-        "adx": 11.01,
-        "plus_di": 16.5,
-        "minus_di": 21.49,
-        "atr": 437.73572423,
-        "atr_percent": 0.68,
-        "atr_extension": -1.08,
-        "macd_hist": -48.20244589,
-        "volume_ratio": 0.88
+        "ema_20": 63566.62940441,
+        "ema_50": 64163.58347411,
+        "ema_200": 67450.08327646,
+        "rsi": 27.58,
+        "adx": 25.06,
+        "plus_di": 12.0,
+        "minus_di": 34.32,
+        "atr": 513.85214886,
+        "atr_percent": 0.82,
+        "atr_extension": -2.36,
+        "macd_hist": -167.54894054,
+        "volume_ratio": 0.82
       },
       "reasons": [
         "4h close_above_ema200 failed",
@@ -173,19 +163,19 @@
         "entry_quality": 3
       },
       "market_regime": "BEARISH",
-      "candle_date": "2026-11-18T13:00:00+00:00",
-      "candle_close_date": "2026-11-18T13:59:59.999000+00:00",
-      "confirmation_candle_date": "2026-11-18T08:00:00+00:00",
-      "confirmation_candle_close_date": "2026-11-18T11:59:59.999000+00:00",
-      "data_age_hours": 0.17,
-      "confirmation_data_age_hours": 2.17,
+      "candle_date": "2026-11-18T21:00:00+00:00",
+      "candle_close_date": "2026-11-18T21:59:59.999000+00:00",
+      "confirmation_candle_date": "2026-11-18T16:00:00+00:00",
+      "confirmation_candle_close_date": "2026-11-18T19:59:59.999000+00:00",
+      "data_age_hours": 0.05,
+      "confirmation_data_age_hours": 2.05,
       "is_stale": false,
-      "price": 1790.37,
+      "price": 1764.87,
       "breakout_votes": 0,
       "maximum_breakout_votes": 3,
       "donchian": {
         "20": {
-          "upper": 1836.0,
+          "upper": 1820.64,
           "breakout": false
         },
         "55": {
@@ -193,7 +183,7 @@
           "breakout": false
         },
         "100": {
-          "upper": 1919.76,
+          "upper": 1866.89,
           "breakout": false
         }
       },
@@ -218,17 +208,17 @@
           "adx_confirmed": true,
           "directional_bullish": false
         },
-        "price": 1801.22,
-        "ema_20": 1828.76336931,
-        "ema_50": 1915.39022635,
-        "ema_200": 2175.12333187,
-        "macd_hist": 7.37500654,
-        "adx": 44.32,
-        "plus_di": 11.74,
-        "minus_di": 21.39,
-        "candle_date": "2026-11-18T08:00:00+00:00",
-        "candle_close_date": "2026-11-18T11:59:59.999000+00:00",
-        "data_age_hours": 2.17,
+        "price": 1756.02,
+        "ema_20": 1816.6504225,
+        "ema_50": 1903.6093016,
+        "ema_200": 2166.94829151,
+        "macd_hist": 2.38167828,
+        "adx": 44.42,
+        "plus_di": 9.78,
+        "minus_di": 27.74,
+        "candle_date": "2026-11-18T16:00:00+00:00",
+        "candle_close_date": "2026-11-18T19:59:59.999000+00:00",
+        "data_age_hours": 2.05,
         "reasons": [
           "close_above_ema200=failed",
           "ema20_above_ema50=failed",
@@ -239,18 +229,18 @@
         ]
       },
       "indicators": {
-        "ema_20": 1806.01329145,
-        "ema_50": 1812.85807938,
-        "ema_200": 1913.66366203,
-        "rsi": 40.2,
-        "adx": 14.31,
-        "plus_di": 14.69,
-        "minus_di": 23.29,
-        "atr": 15.56119032,
-        "atr_percent": 0.87,
-        "atr_extension": -1.01,
-        "macd_hist": -1.36738684,
-        "volume_ratio": 0.87
+        "ema_20": 1782.18536114,
+        "ema_50": 1799.25559944,
+        "ema_200": 1902.11266709,
+        "rsi": 39.73,
+        "adx": 27.64,
+        "plus_di": 14.65,
+        "minus_di": 31.87,
+        "atr": 18.584276,
+        "atr_percent": 1.05,
+        "atr_extension": -0.93,
+        "macd_hist": -3.31863853,
+        "volume_ratio": 0.6
       },
       "reasons": [
         "4h close_above_ema200 failed",
@@ -275,28 +265,28 @@
       "confirmation_timeframe": "4h",
       "signal": "AVOID",
       "signal_strength": "NONE",
-      "score": 39,
+      "score": 21,
       "score_breakdown": {
         "market_regime": 8,
-        "trend": 20,
-        "momentum": 8,
+        "trend": 10,
+        "momentum": 0,
         "volume": 0,
         "entry_quality": 3
       },
       "market_regime": "BEARISH",
-      "candle_date": "2026-11-18T13:00:00+00:00",
-      "candle_close_date": "2026-11-18T13:59:59.999000+00:00",
-      "confirmation_candle_date": "2026-11-18T08:00:00+00:00",
-      "confirmation_candle_close_date": "2026-11-18T11:59:59.999000+00:00",
-      "data_age_hours": 0.17,
-      "confirmation_data_age_hours": 2.17,
+      "candle_date": "2026-11-18T21:00:00+00:00",
+      "candle_close_date": "2026-11-18T21:59:59.999000+00:00",
+      "confirmation_candle_date": "2026-11-18T16:00:00+00:00",
+      "confirmation_candle_close_date": "2026-11-18T19:59:59.999000+00:00",
+      "data_age_hours": 0.05,
+      "confirmation_data_age_hours": 2.05,
       "is_stale": false,
-      "price": 74.22,
+      "price": 72.97,
       "breakout_votes": 0,
       "maximum_breakout_votes": 3,
       "donchian": {
         "20": {
-          "upper": 75.78,
+          "upper": 75.66,
           "breakout": false
         },
         "55": {
@@ -304,73 +294,73 @@
           "breakout": false
         },
         "100": {
-          "upper": 76.22,
+          "upper": 75.78,
           "breakout": false
         }
       },
       "entry_filters": {
         "close_above_ema20": false,
         "volume_confirmed": false,
-        "rsi_in_entry_range": true,
+        "rsi_in_entry_range": false,
         "macd_positive": false,
         "atr_in_range": true,
         "not_overextended": false
       },
       "confirmation": {
         "timeframe": "4h",
-        "passed_conditions": 4,
+        "passed_conditions": 2,
         "total_conditions": 6,
         "is_confirmed": false,
         "conditions": {
           "close_above_ema200": false,
           "ema20_above_ema50": false,
-          "ema20_rising": true,
+          "ema20_rising": false,
           "macd_positive": true,
           "adx_confirmed": true,
-          "directional_bullish": true
+          "directional_bullish": false
         },
-        "price": 74.45,
-        "ema_20": 73.80583895,
-        "ema_50": 77.18913846,
-        "ema_200": 90.24129591,
-        "macd_hist": 0.748405,
-        "adx": 33.03,
-        "plus_di": 18.86,
-        "minus_di": 16.7,
-        "candle_date": "2026-11-18T08:00:00+00:00",
-        "candle_close_date": "2026-11-18T11:59:59.999000+00:00",
-        "data_age_hours": 2.17,
+        "price": 73.12,
+        "ema_20": 73.71330581,
+        "ema_50": 76.89018894,
+        "ema_200": 89.9059137,
+        "macd_hist": 0.49799173,
+        "adx": 30.04,
+        "plus_di": 16.13,
+        "minus_di": 22.02,
+        "candle_date": "2026-11-18T16:00:00+00:00",
+        "candle_close_date": "2026-11-18T19:59:59.999000+00:00",
+        "data_age_hours": 2.05,
         "reasons": [
           "close_above_ema200=failed",
           "ema20_above_ema50=failed",
-          "ema20_rising=passed",
+          "ema20_rising=failed",
           "macd_positive=passed",
           "adx_confirmed=passed",
-          "directional_bullish=passed"
+          "directional_bullish=failed"
         ]
       },
       "indicators": {
-        "ema_20": 74.27953966,
-        "ema_50": 73.5632207,
-        "ema_200": 77.09455926,
-        "rsi": 51.81,
-        "adx": 17.98,
-        "plus_di": 19.05,
-        "minus_di": 16.09,
-        "atr": 0.75907916,
-        "atr_percent": 1.02,
-        "atr_extension": -0.08,
-        "macd_hist": -0.12829247,
-        "volume_ratio": 0.69
+        "ema_20": 73.75772312,
+        "ema_50": 73.50919465,
+        "ema_200": 76.80920077,
+        "rsi": 42.4,
+        "adx": 18.66,
+        "plus_di": 14.13,
+        "minus_di": 22.76,
+        "atr": 0.84375058,
+        "atr_percent": 1.16,
+        "atr_extension": -0.93,
+        "macd_hist": -0.23396929,
+        "volume_ratio": 0.46
       },
       "reasons": [
         "4h close_above_ema200 failed",
         "4h ema20_above_ema50 failed",
-        "4h ema20_rising passed",
+        "4h ema20_rising failed",
         "4h macd_positive passed",
         "4h adx_confirmed passed",
-        "4h directional_bullish passed",
-        "1h RSI is in the preferred entry range",
+        "4h directional_bullish failed",
+        "1h RSI is outside the preferred entry range",
         "1h MACD momentum is negative",
         "1h price is below EMA20",
         "1h volume confirmation is insufficient",
